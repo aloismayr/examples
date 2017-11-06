@@ -13,7 +13,7 @@
 
 ## Install Dynatrace
 
-To monitor cluster nodes and applications running in DC/OS simply deploy Dynatrace OneAgent to agent nodes by means of the DC/OS Dynatrace package. Dynatrace will automatically start monitoring of the nodes and applications.
+To monitor cluster nodes and applications running in DC/OS simply deploy Dynatrace OneAgent to agent nodes by means of the DC/OS Dynatrace package. Dynatrace will automatically start monitoring the nodes and applications.
 
 You will need to provide two parameters:
 
@@ -22,7 +22,7 @@ You will need to provide two parameters:
 
 ### Installation on DC/OS agent nodes
 
-Go to the DC/OS universe/catalog web UI and search for "dynatrace". Click the tile and select "Configure" to enter the required parameters for connecting with Dynatrace.
+Go to the DC/OS universe/catalog web UI and search for "dynatrace".
 
 ![Dynatrace package in DC/OS](img/dcos-dynatrace-package.png)
 
@@ -30,7 +30,7 @@ Click the tile and select "Configure" to enter the required parameters for conne
 
 ![Dynatrace package configuration in DC/OS](img/dcos-dynatrace-configuration.png)
 
-1. Get your Dynatrace OneAgent Download URL from your Dynatrace environment
+1. Locate your Dynatrace OneAgent installer URL which is presented to you during Dynatrace OneAgent installation
 ![Dynatrace OneAgent Download URL](img/dynatrace-oneagent-install.png)
 
 2. Set the number of instances to the number of DC/OS agent nodes
